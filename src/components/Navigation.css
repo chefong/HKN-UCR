@@ -1,0 +1,15 @@
+.reactstrap-navbar {
+  background: none;
+}
+
+#hkn-name {
+  font-family: Ailerons;
+  color: #365685;
+}
+
+.reactstrap-navitem, .reactstrap-navitem:hover {
+  font-family: Metropolis;
+  font-weight: bold;
+  color: #365685 !important;
+  margin-right: 2vw;
+}
