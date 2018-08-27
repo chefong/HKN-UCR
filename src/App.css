@@ -2,3 +2,7 @@
   overflow: hidden;
   padding: 0px;
 }
+
+body {
+  padding-bottom: -10px;
+}

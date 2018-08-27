@@ -63,7 +63,7 @@ export default class Info extends Component {
                 <div className="principle-image-container"><img src={attitude} alt="" className="principle-image"/></div>
                 <div className="principle-name">Attitude</div>
                 <p className="principle-desc">Individuals must have the proper attitude to work hard, continuously challenge themselves, help others, 
-                and use their talents and superior skills in service to their university, department, and peers.</p>
+                and use their talents and superior skills in service to their academic institution, department, and peers.</p>
               </div>
             </div>
           </div>
@@ -76,7 +76,7 @@ export default class Info extends Component {
                 <ul className="benefits-list">
                   <li>Distinguish yourself from other students through a recognition that acknowledges your academic achievements</li>
                   <li>Provide leadership opportunities for your professional development</li>
-                  <li>Gain a lifetime membership to IEEE (Institute of Electrical and Electronics Engineers)</li>
+                  <li>Obtain a lifetime membership to IEEE (Institute of Electrical and Electronics Engineers)</li>
                   <li>Network with current and future engineering professionals</li>
                 </ul>
               </div>
@@ -86,6 +86,9 @@ export default class Info extends Component {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="mwl-container">
+            <p id="mwl">Made with ❤️ in Riverside, CA</p>
           </div>
       </div>
     )
