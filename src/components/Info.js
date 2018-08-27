@@ -27,10 +27,10 @@ export default class Info extends Component {
                 <Fade bottom>
                   <p className="text">Eta Kappa Nu (HKN) is the Electrical and Computer Engineering honor society
                   of IEEE, open to all engineering disciplines. The society was nationally founded on October 28, 1904 for Electrical Engineering students at the
-                  University of Illinois at Urbana-Champaign. Find out more <span id="here">here</span>.</p>
+                  University of Illinois at Urbana-Champaign. Find out more <a href="https://hkn.ieee.org/" id="here">here</a>.</p>
                 </Fade>
                 <Fade bottom>
-                  <p className="text">Here at the University of California, Riverside, we are a student-run organization providing
+                  <p className="text">Here at the <a href="https://www.ucr.edu/" id="ucr-link">University of California, Riverside</a>, we are a student-run organization providing
                   academic services to fellow graduate and undergraduate students. Our mission is to provide a variety of service programs and leadership training, through
                   which our student members develop lifelong skills that earmark them for prominent positions in the industry and academia.</p>
                 </Fade>

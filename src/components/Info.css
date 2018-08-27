@@ -41,6 +41,15 @@
   padding: 0 4%;
 }
 
+#here {
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+
+#ucr-link {
+  color: #F1AB00;
+}
+
 .why-container {
   background-color: #365685;
   padding-top: 2%;
