@@ -9,6 +9,8 @@ import {
   NavItem,
   NavLink } from 'reactstrap';
 
+const crest = require('../assets/imgs/hkn-crest.png');
+
 export default class Navigation extends Component {
 
   state = {
@@ -23,9 +25,9 @@ export default class Navigation extends Component {
 
   render() {
     return (
-      <div>
+      <div className="container-fluid">
         <Navbar light expand="md" className="reactstrap-navbar">
-          <NavbarBrand href="/"><h1 id="hkn-name">HKN</h1></NavbarBrand>
+          <NavbarBrand href="/"><img src={crest} alt="HKN crest" id="crest"/></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
@@ -33,7 +35,7 @@ export default class Navigation extends Component {
                 <NavLink className="reactstrap-navitem" href="/">About</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="reactstrap-navitem" href="/">Members</NavLink>
+                <NavLink className="reactstrap-navitem" href="/">Board</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink className="reactstrap-navitem" href="/">Events</NavLink>

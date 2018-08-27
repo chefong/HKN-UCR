@@ -1,3 +1,95 @@
-.info-container {
+.subtitle {
+  font-family: Ailerons;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 175%;
+}
+
+#crest-about {
+  width: 55%;
+  margin: auto;
+  margin-top: -2%;
+  display: block;
+}
+
+#hkn1 {
+  width: 90%;
+  border-radius: 5px;
+  margin: auto;
+  display: block;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 4%;
+}
+
+.about-container {
   background-color: #365685;
+  padding-top: 4%;
+  padding-bottom: 2%;
+}
+
+.text, .principle-desc {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: #FFFFFF;
+}
+
+.text {
+  padding: 0 4%;
+}
+
+.why-container {
+  background-color: #365685;
+  padding-top: 2%;
+  padding-bottom: 4%; 
+}
+
+.principles-container {
+  padding-top: 2%;
+  margin-bottom: 4%;
+}
+
+.blue-subtitle {
+  font-family: Ailerons;
+  color: #365685;
+  font-size: 175%;
+}
+
+.principle-image-container {
+  text-align: center;
+}
+
+.principle-image {
+  width: 20%;
+}
+
+.principle-name {
+  text-align: center;
+  font-size: 100%;
+  margin-top: 4%;
+  font-family: Ailerons;
+  color: #365685;
+}
+
+.principle-desc {
+  color: #365685;
+  margin-top: 2%;
+  padding: 0 4%;
+}
+
+.benefits-list {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: #365685;
+  padding-right: 4%;
+}
+
+#ieee {
+  width: 90%;
+}
+
+.ieee-container {
+  text-align: center;
 }

@@ -1,16 +1,25 @@
-#hkn-title {
+.title-container {
+  text-align: center;
+}
+
+#hkn {
   width: 50%;
   margin-top: 4%;
 }
 
-#lambda-sigma {
+#lambda {
   font-family: Ailerons;
-  font-size: 200%;
   color: #365685;
-  margin-top: 2%;
+  font-size: 175%;
+  margin-top: 1%;
+  text-align: center;
+  padding: 0 2%;
 }
 
-.triangle {
-  width: 100%;
+#triangle {
   margin-top: 6%;
+}
+
+#ucr {
+  color: #F1AB00;
 }

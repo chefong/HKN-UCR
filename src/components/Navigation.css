@@ -7,9 +7,19 @@
   color: #365685;
 }
 
-.reactstrap-navitem, .reactstrap-navitem:hover {
-  font-family: Metropolis;
+.reactstrap-navitem {
+  font-family: 'Ubuntu Condensed', sans-serif;
   font-weight: bold;
   color: #365685 !important;
   margin-right: 2vw;
+  float: right;
+  font-size: 110%;
+}
+
+.reactstrap-navitem:hover {
+  color: #F1AB00 !important;
+}
+
+#crest {
+  height: 8vh;
 }
