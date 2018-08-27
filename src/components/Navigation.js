@@ -8,6 +8,7 @@ import {
   Nav,
   NavItem,
   NavLink } from 'reactstrap';
+import ScrollIntoView from 'react-scroll-into-view';
 
 const crest = require('../assets/imgs/hkn-crest.png');
 
@@ -32,7 +33,9 @@ export default class Navigation extends Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink className="reactstrap-navitem" href="/">About</NavLink>
+                <ScrollIntoView alignToTop="true" smooth selector=".about-container">
+                  <NavLink className="reactstrap-navitem">About</NavLink>
+                </ScrollIntoView>
               </NavItem>
               <NavItem>
                 <NavLink className="reactstrap-navitem" href="/">Board</NavLink>
