@@ -115,7 +115,7 @@ export default class Info extends Component {
             </div>
           </div>
           <div className="mwl-container">
-            <p id="mwl"><span role="image">Made with ❤️ in Riverside, CA</span></p>
+            <p id="mwl">Made with <span role="image">❤️</span>in Riverside, CA</p>
           </div>
       </div>
     )
