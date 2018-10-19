@@ -33,12 +33,12 @@ export default class Navigation extends Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink className="reactstrap-navitem" href="#about">
+                <NavLink className="reactstrap-navitem" href="/">
                   <ScrollIntoView alignToTop="true" smooth selector=".about-container">About</ScrollIntoView>
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="reactstrap-navitem" href="/">Board</NavLink>
+                <NavLink className="reactstrap-navitem" href="/board">Board</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink className="reactstrap-navitem" href="/">Events</NavLink>
