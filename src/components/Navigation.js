@@ -41,7 +41,7 @@ export default class Navigation extends Component {
                 <NavLink className="reactstrap-navitem" href="/board">Board</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="reactstrap-navitem" href="/">Events</NavLink>
+                <NavLink className="reactstrap-navitem" href="/events">Events</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink className="reactstrap-navitem" id="right-nav" href="/">Contact</NavLink>
