@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Board.css';
 import Navigation from './Navigation';
 
+const dylan = require('../assets/imgs/board/dylanwright.jpg');
 const eric = require('../assets/imgs/board/ericong.jpg');
 const ryan = require('../assets/imgs/board/ryanpan.jpg');
 const brandon = require('../assets/imgs/board/brandonlam.jpg');
@@ -15,7 +16,7 @@ export default class Board extends Component {
           <div className="board-image-container">
             <div className="row justify-content-center">
               <div className="col-md-3 col-sm-3">
-                <img src={ eric } alt="" className="board-image"/>
+                <img src={ dylan } alt="" className="board-image"/>
                 <a href="mailto:dwrig010@ucr.edu" className="board-email"><p className="board-name">Dylan Wright</p></a>
                 <p className="board-position">President</p>
                 <p className="board-major">Chemical Engineering</p>

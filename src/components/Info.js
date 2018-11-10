@@ -100,7 +100,7 @@ export default class Info extends Component {
                   <ul className="benefits-list">
                     <li>Distinguish yourself from other students through a recognition that acknowledges your academic achievements</li>
                     <li>Provide leadership opportunities for your professional development</li>
-                    <li>Obtain a lifetime membership to IEEE (Institute of Electrical and Electronics Engineers)</li>
+                    <li>Gain membership to the national IEEE (Institute of Electrical and Electronics Engineers) society</li>
                     <li>Network with current and future engineering professionals</li>
                   </ul>
                 </Fade>

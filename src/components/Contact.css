@@ -1,0 +1,39 @@
+#questions {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  text-align: center;
+  font-size: 250%;
+}
+
+#questions-caption {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  text-align: center;
+}
+
+.contact-info-container {
+  margin: auto 2%;
+}
+
+.form-email {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  margin-bottom: 0;
+}
+
+.email {
+  margin-bottom: 5%;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  width: 20em;
+}
+
+.message {
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.submit-button-container {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.btn-primary {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  border-radius: 10px;
+}

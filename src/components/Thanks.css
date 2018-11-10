@@ -1,0 +1,20 @@
+.thank-you {
+  text-align: center;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 200%;
+  margin-top: 10%;
+}
+
+.loading-container {
+  text-align: center;
+}
+
+#loading {
+  width: 20%;
+}
+
+.no-thank-you {
+  text-align: center;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  margin-top: 8%;
+}
