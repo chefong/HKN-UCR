@@ -13,6 +13,13 @@ export default class Board extends Component {
       <div>
         <Navigation/>
         <div class="container-fluid">
+          <div className="board-title-container">
+            <div className="row justify-content-center">
+              <div className="col-md-6">
+                <p className="board-title">Board</p>
+              </div>
+            </div>
+          </div>
           <div className="board-image-container">
             <div className="row justify-content-center">
               <div className="col-md-3 col-sm-3">
