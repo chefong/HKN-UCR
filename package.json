@@ -3,12 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
     "bootstrap": "^4.1.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-reveal": "^1.2.2",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.5",
+    "react-scripts": "^2.1.5",
     "react-scroll-into-view": "^1.3.2",
     "reactstrap": "^6.4.0",
     "scroll-into-view-if-needed": "^2.2.16"
@@ -17,6 +21,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "nodemon server.js"
   }
 }
