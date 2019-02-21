@@ -37,3 +37,16 @@
   font-family: 'Ubuntu Condensed', sans-serif;
   border-radius: 10px;
 }
+
+#g-recaptcha {
+  display: inline-block;
+}
+
+.recaptcha-container {
+  margin-top: 4%;
+  text-align: center
+}
+
+.toast-container {
+  font-family: 'Ubuntu Condensed', sans-serif
+}
