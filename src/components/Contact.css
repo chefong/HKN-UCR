@@ -19,7 +19,7 @@
 }
 
 .email {
-  margin-bottom: 5%;
+  margin-bottom: 2%;
   font-family: 'Ubuntu Condensed', sans-serif;
   width: 20em;
 }
@@ -43,10 +43,15 @@
 }
 
 .recaptcha-container {
-  margin-top: 4%;
+  margin-top: 2%;
   text-align: center
 }
 
 .toast-container {
   font-family: 'Ubuntu Condensed', sans-serif
+}
+
+#spinner {
+  width: 5%;
+  margin-top: 2%
 }

@@ -10,20 +10,23 @@ app.use(cors())
 
 app.get('/', (req, res) => {
 
-  res.send("Hello world")
+  res.send("HKN UCR Backend")
 })
 
 app.get('/email', (req, res) => {
+  const { sender, subject, message } = req.query
+
   const msg = {
-    to: 'ericong18@gmail.com',
-    from: 'test@example.com',
-    subject: 'Sending with SendGrid is Fun',
-    text: 'and easy to do anywhere, even with Node.js',
-    html: '<strong>and easy to do anywhere, even with Node.js</strong>',
+    to: 'ucretakappanu@gmail.com',
+    from: sender,
+    subject: subject,
+    text: message,
+    html: `<p>${message}</p>`,
   };
 
-  sgMail.send(msg)
-  .then(res => console.log(res))
+  sgMail.send(msg).then(res => 
+    console.log(res)).catch(err =>
+    console.log(err))
 
   res.send("Email sent via Sendgrid")
 })
