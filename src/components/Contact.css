@@ -66,3 +66,12 @@
 .red {
   color: #cc0000
 }
+
+.btn {
+  background-color: #365685;
+  border: none
+}
+
+.btn:hover {
+  background-color: #517bb8
+}

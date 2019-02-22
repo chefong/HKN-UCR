@@ -106,7 +106,7 @@ export default class Contact extends Component {
               />
             </div>
             <div class="submit-button-container">
-              { !this.state.loading && <button type="submit" class="btn btn-primary">Submit</button> }
+              { !this.state.loading && <button type="submit" className="btn btn-primary">Submit</button> }
               { this.state.loading && <img src={ spinner } id="spinner" alt=""/> }
             </div>
             <input type="hidden" name="_next" value="/thankyou" />
