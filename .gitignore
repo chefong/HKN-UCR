@@ -23,3 +23,5 @@ yarn-error.log*
 /src/recaptcha.js
 
 /backend/config
+
+.firebase
