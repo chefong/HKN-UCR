@@ -13,7 +13,8 @@ let recaptchaInstance;
 export default class Contact extends Component {
   state = {
     verified: false,
-    loading: false
+    loading: false,
+    messageLength: 0
   }
 
   resetRecaptcha = () => {
@@ -26,6 +27,22 @@ export default class Contact extends Component {
 
   verifyCallback = () => {
     this.setState({ verified: true })
+  }
+
+  chooseMessageClass = () => {
+    if (this.state.messageLength >= 20) {
+      return "green"
+    }
+    else {
+      return "red"
+    }
+  }
+
+  handleChange = e => {
+    e.preventDefault()
+
+    let message = e.target.value
+    this.setState({ messageLength: message.length })
   }
 
   handleSubmit = e => {
@@ -74,8 +91,8 @@ export default class Contact extends Component {
                 <input type="email" name="email" class="form-control email" id="exampleFormControlInput1" placeholder="john.doe@email.com"/>
                 <p className="form-email">Subject</p>
                 <input type="text" name="subject" class="form-control email" id="exampleFormControlInput1" placeholder="Subject"/>
-                <p className="form-email">Message</p>
-                <textarea name="message" class="form-control message" id="exampleFormControlTextarea1" rows="5" placeholder="Your message..."></textarea>
+                <p className="form-email">Message <span id="message-length" className={ this.chooseMessageClass() }>{ this.state.messageLength } characters</span></p>
+                <textarea name="message" onChange={ this.handleChange } class="form-control message" id="exampleFormControlTextarea1" rows="5" placeholder="Your message..."></textarea>
               </div>
             </div>
             <div className="recaptcha-container">

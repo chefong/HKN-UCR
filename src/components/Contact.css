@@ -28,6 +28,10 @@
   font-family: 'Ubuntu Condensed', sans-serif;
 }
 
+#message-length {
+  float: right
+}
+
 .submit-button-container {
   text-align: center;
   margin-top: 1%;
@@ -53,4 +57,12 @@
 
 #spinner {
   width: 5%;
+}
+
+.green {
+  color: #61B329
+}
+
+.red {
+  color: #cc0000
 }
