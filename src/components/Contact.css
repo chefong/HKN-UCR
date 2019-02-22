@@ -30,7 +30,7 @@
 
 .submit-button-container {
   text-align: center;
-  margin-top: 2%;
+  margin-top: 1%;
 }
 
 .btn-primary {
@@ -53,5 +53,4 @@
 
 #spinner {
   width: 5%;
-  margin-top: 2%
 }

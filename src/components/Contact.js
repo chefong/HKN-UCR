@@ -40,6 +40,11 @@ export default class Contact extends Component {
     let subject = e.target.subject.value
     let message = e.target.message.value
 
+    if (message.length < 20) {
+      toast.warn("Your message seems a bit too short, make sure it's at least 20 characters!")
+      return
+    }
+
     this.setState({ loading: true })
 
     axios.get(`https://hkn-ucr-backend.herokuapp.com/email?sender=${sender}&subject=${subject}&message=${message}`).then(res => {
@@ -47,9 +52,10 @@ export default class Contact extends Component {
     }).then(() => {
       toast.success("Email successfully sent!")
     }).then(() => {
-      recaptchaInstance.reset()
+      recaptchaInstance.reset() // Reset recaptcha if successfully sent
       this.setState({ verified: false })
     }).catch(err => {
+      toast.error("Oops, something went wrong!")
       console.log(err)
     })
   }
@@ -83,13 +89,11 @@ export default class Contact extends Component {
               />
             </div>
             <div class="submit-button-container">
-              <button type="submit" class="btn btn-primary">Submit</button>
+              { !this.state.loading && <button type="submit" class="btn btn-primary">Submit</button> }
+              { this.state.loading && <img src={ spinner } id="spinner" alt=""/> }
             </div>
             <input type="hidden" name="_next" value="/thankyou" />
           </form>
-        </div>
-        <div className="loading-container">
-          { this.state.loading && <img src={ spinner } id="spinner" alt=""/> }
         </div>
         <ToastContainer 
           className="toast-container"
